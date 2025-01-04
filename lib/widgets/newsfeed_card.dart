@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:share_plus/share_plus.dart'; // Import the share_plus package
+import 'package:share_plus/share_plus.dart'; 
 import '../constants.dart';
 import '../widgets/customfont.dart';
 
 class NewsfeedCard extends StatefulWidget {
   final String userName;
   final String postContent;
-  final String? postImage; // Optional post image asset path
+  final String? postImage; 
   final int initialLikes;
-  final String? profileImage; // Profile image asset path
+  final String? profileImage; 
 
   const NewsfeedCard({
     Key? key,
@@ -124,7 +124,7 @@ class _NewsfeedCardState extends State<NewsfeedCard> {
                 _ActionButton(
                   icon: Icons.share_outlined,
                   label: 'Share',
-                  onPressed: _sharePost, // Share button functionality
+                  onPressed: _sharePost, 
                 ),
               ],
             ),
