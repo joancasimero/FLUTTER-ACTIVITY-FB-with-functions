@@ -61,7 +61,7 @@ class _NewsfeedCardState extends State<NewsfeedCard> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // User info row with avatar
+            
             Row(
               children: [
                 _buildProfilePicture(),
