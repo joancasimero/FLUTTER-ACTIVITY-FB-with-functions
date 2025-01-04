@@ -110,7 +110,7 @@ class _NewsfeedCardState extends State<NewsfeedCard> {
                 _ActionButton(
                   icon: _isLiked
                       ? Icons.thumb_up
-                      : Icons.thumb_up_outlined, // Change icon on like
+                      : Icons.thumb_up_outlined, 
                   label: 'Like',
                   onPressed: _toggleLike,
                 ),
